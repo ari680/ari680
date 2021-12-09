@@ -1,9 +1,0 @@
-#pip install instaloader package
-
-import instaloader
-
-ig=instaloader.Instaloader()
-
-profile=input("Enter user name")
-
-ig.download_profile(profile,profile_pic=True)
